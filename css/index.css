@@ -1,0 +1,75 @@
+body {
+    background: darkgrey;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:#fff;
+    padding: 2px;
+    }
+
+h1 {
+    font-size: 38px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+    }
+
+ul{
+    list-style-type: none;
+    }
+
+nav {
+    text-align: center;
+    margin: 0px;
+}
+
+nav > ul > li {
+    display: inline;
+    padding: 5px 10px;
+}
+
+nav > ul > li > a {
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    padding: 5px 20px;
+    border-radius: 10px;
+    background-color: #000;
+    color: #fff;
+    border: 1px solid #000;
+    }
+
+nav > ul > li > a:hover, nav > ul > li > a:focus, nav > ul > li > a:active  {
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    padding: 5px 20px;
+    border-radius: 10px;
+    border: 1px solid #000;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    }
+
+.align-center {
+    text-align: center;
+}
+
+form {
+    display: inline-block;
+    margin-right: 25%;
+}
+
+form > p > input[type="submit"]{
+    float: right;
+}
+
+label {
+    display: inline-block;
+    width: 200px;
+    margin-right: 20px;
+    vertical-align: top;
+    font-size: 1em;
+    text-align: right;
+}
+
+.failed-login-info, .failed-signup-info {
+    text-align: center;
+}

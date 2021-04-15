@@ -1,0 +1,41 @@
+<!-- /views/signup.ejs -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="/css/index.css" rel="stylesheet" type="text/css"/>
+        <style>
+            body {background: rgb(10, 126, 10);}
+        </style>
+    </head>
+    <body>
+        <%- include('partials/nav') %>
+        <h1>Inscrivez-vous !</h1>
+        <% if (data) { %>
+            <p class="failed-login-info">
+                Il existe déjà un utilisateur avec l'email : <%= data %>
+            </p>
+        <% } %>
+        <div class="align-center">
+        <form id="signup-form" method="POST" action="/users/signup">
+            <p>
+            <label for="nom">Nom</label>
+            <input type="text" name="nom">
+            </p><p>
+            <label for="prenom">Prénom</label>
+            <input type="text" name="prenom">
+        </p><p>
+            <label for="email">email</label>
+            <input type="text" name="email">
+        </p><p>
+            <label for="pswd">Mot de passe</label>
+            <input type="password" name="pswd">
+        </p><p>
+            <label for="pswdRepeat">Saisissez-le à nouveau</label>
+            <input type="password" name="pswdRepeat">
+        </p><p>
+            <input type="submit" value="s'inscrire">
+            </p>
+        </form>
+    </div>
+    </body>
+</html>

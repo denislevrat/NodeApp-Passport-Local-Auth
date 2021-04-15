@@ -1,0 +1,19 @@
+<!-- /views/greatings.ejs -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="/css/index.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <%- include('partials/nav') %>
+        <% if (data.loggedin) { %>
+            <h1>Bienvenue <%= data.nom %></h1>
+            <p>Un email vous a été envoyer à <%= data.email %></p>
+            <p></p>
+        <% } else { %>
+            <h3>Il existe déjà un utilisateur avec l'email : <%= data.email %></h3>
+        <% } %>
+        <p></p>
+
+    </body>
+</html>

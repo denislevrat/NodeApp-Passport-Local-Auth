@@ -1,0 +1,32 @@
+<!-- /views/login.ejs -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="/css/index.css" rel="stylesheet" type="text/css"/>
+        <style>
+            body {
+                background: rgb(219, 129, 18);
+                }
+        </style>
+    </head>
+    <body>
+        <%- include('partials/nav') %>
+        <h1>Connectez-vous !</h1>
+        <% if (data) { %>
+            <p class="failed-login-info"><%= data %></p>
+        <% } %>
+        <div class="align-center">
+            <form id="signup-form" method="POST" action="/users/login">
+            <p>
+                <label for="email">email</label>
+                <input type="text" name="email">
+            </p><p>
+                <label for="pswd">Mot de passe</label>
+                <input type="password" name="pswd">
+            </p><p>
+                <input type="submit" value="s'authentifier">
+                </p>
+            </form>
+        </div>
+    </body>
+</html>
