@@ -39,13 +39,14 @@ Fig.5: Page d'authentification
 ![page greatings](https://github.com/denislevrat/NodeApp-Passport-Local-Auth/blob/master/docs/greatingsScSht.png)  
 Fig.6: Page de bienvenue
 
-Pour administrer la base de données MongoDb via mongo-express, rendez-vous sur 'http://localhost:8081'
+Pour administrer la base de données MongoDb via mongo-express, rendez-vous sur `http://localhost:8081`
 ![mongo-express administration](https://github.com/denislevrat/NodeApp-Passport-Local-Auth/blob/master/docs/mongoExpressScSht.png)  
 Fig.7: Administration de la base de données utilisateurs
 
 ## Idées de Todo
 * Passer l'application en mode `https`
-* Ajouter les mots de passe et les ip sécurisé sur les containers
+* Ajouter les mots de passe et les ip sécurisés sur les containers
+* Comparer les mots de passe à la saisie
 * Ajouter l'action supprimer mon compte
 * Valider l'inscription via l'envoi d'email
 * Ajouter Bootstrap pour rendre l'app responsive
