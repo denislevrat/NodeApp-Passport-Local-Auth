@@ -6,7 +6,7 @@ Il utilise les technologies suivantes : [NodeJs](https://nodejs.org/), [Passport
 
 Voici le schéma de l'infrastructure global :
 ![containers structure](https://github.com/denislevrat/NodeApp-Passport-Local-Auth/blob/master/docs/NodeappStructure.png)  
-Fig.1: Structure des containers
+<font size="0.7em">Fig.1: Structure des containers</font>
 
 
 # Prérequis
