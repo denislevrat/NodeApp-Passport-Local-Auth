@@ -12,10 +12,11 @@ Fig.1: Structure des containers
 Vous devez avoir installé et lancé Docker au préalable
 
 ## Installation
-Cloner le git, créer l'image de l'app et exécuter le fichier docker-compose
+Cloner le git, installer les dépendances, créer l'image de l'app et exécuter le fichier docker-compose
 ```
 git clone https://github.com/denislevrat/NodeApp-Passport-Local-Auth.git
 cd NodeApp-Passport-Local-Auth
+npm install -s
 docker build nodeapp:v1 .
 docker-compose up
 ```
