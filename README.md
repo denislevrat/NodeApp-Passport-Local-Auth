@@ -6,10 +6,10 @@ Il utilise les technologies suivantes : [NodeJs](https://nodejs.org/), [Passport
 
 Voici le schéma de l'infrastructure global :
 ![containers structure](https://github.com/denislevrat/NodeApp-Passport-Local-Auth/blob/master/docs/NodeappStructure.png)  
-<font size="0.7em">Fig.1: Structure des containers</font>
+Fig.1: Structure des containers
 
 
-# Prérequis
+## Prérequis
 Vous devez avoir installé et lancé Docker au préalable
 
 
@@ -29,29 +29,29 @@ Comme montré dans la Fig.1, les images et les containers sont automatiquement c
 
 ![docker images screenshot](https://github.com/denislevrat/NodeApp-Passport-Local-Auth/blob/master/docs/DockerImagesScSht.png)  
 Fig.2: Images créées
-
+## 
 
 ![docker containers screenshot](https://github.com/denislevrat/NodeApp-Passport-Local-Auth/blob/master/docs/containerListScSht.png)  
 Fig.3: Containers lancés
-
+## 
 
 Ensuite, rendez-vous sur `http://localhost:8080`pour utiliser l'application
 ![singup page](https://github.com/denislevrat/NodeApp-Passport-Local-Auth/blob/master/docs/inscritptionScSht.png)  
 Fig.4: Page d'inscription
-
+## 
 
 ![page d'authentification](https://github.com/denislevrat/NodeApp-Passport-Local-Auth/blob/master/docs/authentificationScSht.png)  
 Fig.5: Page d'authentification
-
+## 
 
 ![page greatings](https://github.com/denislevrat/NodeApp-Passport-Local-Auth/blob/master/docs/greatingsScSht.png)  
 Fig.6: Page de bienvenue
-
+## 
 
 Pour administrer la base de données MongoDb via mongo-express, rendez-vous sur `http://localhost:8081`
 ![mongo-express administration](https://github.com/denislevrat/NodeApp-Passport-Local-Auth/blob/master/docs/mongoExpressScSht.png)  
 Fig.7: Administration de la base de données utilisateurs
-
+## 
 
 ## Idées de Todo
 * Passer l'application en mode `https`
